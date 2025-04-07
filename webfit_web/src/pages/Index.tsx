@@ -1,7 +1,10 @@
+import React from "react";
+
 function Index(): React.ReactElement {
   return (
     <div>
       <h1>첫 시작화면</h1>
+      <p>폰트1</p>
     </div>
   )
 }
