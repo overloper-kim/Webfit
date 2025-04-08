@@ -1,4 +1,5 @@
 import './App.css'
+import './reset.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Index from './pages/Index'
 import Noori from './pages/Noori'
