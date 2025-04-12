@@ -6,7 +6,7 @@ type CenterViewProps =  {
 
 function CenterView({children}: CenterViewProps): React.ReactElement {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center size-full">
       {children}
     </div>
   )
