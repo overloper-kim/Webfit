@@ -3,6 +3,7 @@ import './reset.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Index from './pages/Index'
 import Noori from './pages/Noori'
+import TakePhoto from './pages/TakePhoto'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index/>}/>
           <Route path="/noori" element={<Noori/>}/>
+          <Route path="/takephoto" element={<TakePhoto/>}/>
         </Routes>
       </BrowserRouter>
     </>
