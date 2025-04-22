@@ -4,7 +4,7 @@ import CenterView from "../layouts/CenterView";
 function Index(): React.ReactElement {
   return (
     <CenterView>
-      <h1>123</h1>
+      <p className="text-[#b6b6b6]">made by NR & OVERLOPER</p>
     </CenterView>
   )
 }

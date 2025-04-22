@@ -2,8 +2,8 @@ import './App.css'
 import './reset.css'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Index from './pages/Index'
-import Noori from './pages/Noori'
 import TakePhoto from './pages/TakePhoto'
+import SelectFrame from './pages/SelectFrame'
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index/>}/>
-          <Route path="/noori" element={<Noori/>}/>
+          <Route path="/selectframe" element={<SelectFrame/>}/>
           <Route path="/takephoto" element={<TakePhoto/>}/>
         </Routes>
       </BrowserRouter>
