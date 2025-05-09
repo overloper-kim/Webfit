@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread("img.jpeg")
+img = cv2.imread("img.jpg")
 sharpen_kernel = np.array([[0, -1, 0],
                            [-1, 5,-1],
                            [0, -1, 0]])
